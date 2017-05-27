@@ -39,9 +39,11 @@
 				<version>2.6</version>
 				<configuration>
 					<warSourceDirectory>WebContent</warSourceDirectory>
+					<warName>principal</warName>
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>principal</finalName>
 	</build>
 </project>
