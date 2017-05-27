@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Context>
+	<!-- Esta valve é usada para tirar as extensoes .html das URLs. O arquivo 
+		com as condições está em WEB-INF/rewrite.config -->
+	<Valve className="org.apache.catalina.valves.rewrite.RewriteValve" />
+</Context>
