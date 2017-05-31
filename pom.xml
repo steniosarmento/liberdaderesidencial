@@ -39,11 +39,11 @@
 				<version>2.6</version>
 				<configuration>
 					<warSourceDirectory>WebContent</warSourceDirectory>
-					<warName>principal</warName>
+					<warName>ROOT</warName>
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>principal</finalName>
+		<finalName>ROOT</finalName>
 	</build>
 </project>
