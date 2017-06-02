@@ -20,7 +20,7 @@ public class Email extends HttpServlet {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	String redirectURL = "/principal/mail_send.html";
+	String redirectURL = "/mail_send.html";
 
 	final String senha = System.getenv("SENHA_EMAIL");
 	final String remetenteInterno = System.getenv("CONTA_EMAIL");
